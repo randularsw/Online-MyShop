@@ -14,16 +14,16 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
     path: 'products',
     component: ProductsComponent
   },
   {
     path: 'cart',
     component: CartComponent
-  },
-  {
-    path: 'login',
-    component: LoginComponent
   },
   {
     path: 'my/orders',
